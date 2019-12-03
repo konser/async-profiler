@@ -492,3 +492,5 @@ This is the OS bug, see https://bugs.launchpad.net/ubuntu/+source/linux/+bug/184
 ```
 This message in the output means there was not enough space to store all call traces.
 Consider increasing frame buffer size with `-b` option.
+
+不仅能采集jit的执行方法还可以采集java的方法,并且没有安全点问题
